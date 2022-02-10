@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './unused/logo.svg';
+import Fruit from "./components/Fruit/Fruit";
+import "./unused/App.css";
+import fruits from "./components/dataBase/fruitsBase";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img className='App-logo' src={logo} alt="React-Logo"/>
+      <div className="container">
+        <header>
+          <Header />
+        </header>
+        <main className="main">
+          {fruits.map((value, i) => {
+            return <Fruit fruit={value} key={i}/>;
+          })}
+        </main>
+        <footer>
+          <Footer/>
+        </footer>
+      </div>
     </div>
   );
 }
