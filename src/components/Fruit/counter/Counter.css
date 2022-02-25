@@ -1,0 +1,45 @@
+.counter {
+  display: flex;
+  justify-content: end;
+}
+.order-count{
+  width: 60px;
+  line-height: 24px;
+  border-color: #fff;
+  border-radius: 35px;
+  /* background-color: #2dcc70; */
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  outline: none;
+  font-size: 12px;
+  font-weight: 700;
+  border-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.order-count.green{
+  background-color: #2dcc70;
+}
+.order-count b{
+  font-size: 8px;
+  width: 33%;
+  color: black;
+  background: #2dcc70;
+}
+.order-count span{
+  font-size: 12px;
+  width: 34%;
+  color: black;
+  background: #fff;
+}
+
+
+.block{
+  display: flex;
+}
+.none{
+  display: none;
+}

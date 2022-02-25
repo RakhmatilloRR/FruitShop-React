@@ -1,7 +1,7 @@
 import logo from './unused/logo.svg';
 import Fruit from "./components/Fruit/Fruit";
 import "./unused/App.css";
-import fruits from "./components/dataBase/fruitsBase";
+import fruits from "./components/mock/fruitsBase";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 

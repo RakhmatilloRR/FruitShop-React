@@ -1,3 +1,4 @@
+import Counter from "./counter/Counter";
 import "./Fruit.css";
 function Fruit(props) {
   const {img, title, uom, perUnit, packSize, total} = props.fruit
@@ -9,7 +10,7 @@ function Fruit(props) {
       <div className="details">
         <div className="top">
           <h3>{title}</h3>
-          <button>ADD</button>
+          <Counter/>
         </div>
         <div className="bottom">
           <div>

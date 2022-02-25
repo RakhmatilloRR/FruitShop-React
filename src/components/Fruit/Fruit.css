@@ -3,7 +3,7 @@
   padding: 10px 0;
   border-bottom: 2px solid rgb(0, 0, 0, .2);
 }
-.rasm {
+.rasm { 
   width: 80px;
   height:80px;
   border: 2px solid rgb(0, 0, 0, .2);
@@ -31,7 +31,7 @@
   margin: 0 5px;
 }
 
-.fruit .top button{
+  /* .fruit .top button {
   width: 60px;
   line-height: 24px;
   border-color: #2dcc70;
@@ -43,7 +43,7 @@
   color: white;
   border-style: none;
   cursor: pointer;
-}
+} */
 
 .bottom {
   display: flex;
@@ -62,7 +62,7 @@
 .title {
   opacity: .6;
   font-weight: 500;
-  font-size: 9px;
+  font-size: 8px;
 }
 .value {
   font-size: 14px;
