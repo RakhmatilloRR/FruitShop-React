@@ -28,7 +28,7 @@ form input {
   height: 24px;
   padding: 2px 10px;
 }
-form button {
+form label {
   border-color: #2dcc70;
   border: none;
   outline: none;

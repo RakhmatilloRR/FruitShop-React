@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Counter.css";
+import "./style.css";
 
 class Counter extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class Counter extends Component {
   }
   render() {
     const {count, block, none} = this.state;
-    console.log(count);
+    // console.log(count);
     const add = () => {
         this.setState({block: "none"})
         this.setState({none: "block"})

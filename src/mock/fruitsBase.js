@@ -10,15 +10,15 @@ const fruitsImg = {
   mandarin: `${pixabay}/2020/06/21/09/55/tangerine-5324176__340.jpg`,
 }
 
-const fruits = [
+const fruits = [ 
   {id: 1, img: fruitsImg.apple, title: "Apple", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
-  {id: 1, img: fruitsImg.cherry, title: "Cherry", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
-  {id: 1, img: fruitsImg.strawberry, title: "Strawberry", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
-  {id: 1, img: fruitsImg.orange, title: "Orange", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
-  {id: 1, img: fruitsImg.raspberries, title:"Raspberry", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
-  {id: 1, img: fruitsImg.blackberries, title: "Blackberry", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
-  {id: 1, img: fruitsImg.banana, title: "Banana", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
-  {id: 1, img: fruitsImg.mandarin, title: "Mandarin", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
+  {id: 2, img: fruitsImg.cherry, title: "Cherry", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
+  {id: 3, img: fruitsImg.strawberry, title: "Strawberry", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
+  {id: 4, img: fruitsImg.orange, title: "Orange", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
+  {id: 5, img: fruitsImg.raspberries, title:"Raspberry", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
+  {id: 6, img: fruitsImg.blackberries, title: "Blackberry", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
+  {id: 7, img: fruitsImg.banana, title: "Banana", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
+  {id: 8, img: fruitsImg.mandarin, title: "Mandarin", uom: "02", packSize: "02", perUnit: "$8,99", total: "$17.98"},
 ];
 
 export default fruits;

@@ -1,5 +1,5 @@
-import Counter from "./counter/Counter";
-import "./Fruit.css";
+import Counter from "../counter";
+import "./style.css";
 function Fruit(props) {
   const {img, title, uom, perUnit, packSize, total} = props.fruit
   return (
